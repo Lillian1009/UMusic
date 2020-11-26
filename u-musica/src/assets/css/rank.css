@@ -2,6 +2,7 @@
   width: 100%;
   height: 100%;
   display: block;
+  margin-top: 2.48rem;
 }
 .m-tabct .tabctitem {
   width: 100%;
@@ -53,6 +54,24 @@ background: url('../img/index_icon_2x.png') no-repeat;
   cursor: pointer;
   color: #333;
 }
+.m-sgitem .sgfl-cred {
+    color: #df3436;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: 40px;
+    font-size: 17px;
+    margin-left: -10px;
+    display: flex;
+}
+.u-hmsprt1 {
+    display: inline-block;
+    width: .24rem;
+    height: .16rem;
+    background: url('../img/icon1.png') no-repeat;
+    background-size: .24rem .16rem;
+}
 .m-sgitem .sgfl {
     -webkit-box-align: center;
     align-items: center;
@@ -88,6 +107,8 @@ color: #888;
 text-overflow: ellipsis;
 white-space: nowrap;
 word-break: normal;
+line-height: 20px;
+margin-left: 5px;
 }
 .m-sgitem .sgchfr {
     display: flex;

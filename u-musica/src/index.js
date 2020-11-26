@@ -3,10 +3,7 @@ import React from 'react';
 // 引入DOM库
 import ReactDOM from 'react-dom';
 // 全局引入rem.js文件
-// import './assets/js/rem.js'
 import './assets/js/rem.js'
-// import './assets/js/rem.js'
-// import './assets/js/rem.js'
 // 引入重置样式
 import './assets/css/reset.css'
 // 引入要渲染的组件
